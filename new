@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html> 
+
+<head>
+    
+    <!-- CSS Only -->
+    
+    
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
+    
+    
+</head>
+
+<body> 
+<?php include 'navbar.php'
+
+?>
+
+
+<p>
+
+<?php 
+
+ $name= "Kali";
+ 
+ echo "Hi, my name is $name";
+ 
+ 
+  $learning = " learning how the codes works.";
+  
+  $creating = " being able to create web pages.";
+  
+  $seeing = " seeing the final results of your work.";
+  
+  $coding = " What I like about coding is.";
+  
+  
+  echo $coding . $learning;
+ 
+  echo $coding . $creating;
+  
+  echo $coding . $seeing;
+ 
+ 
+ 
+ ?>
+
+
+
+</p>
+
+</body>
+
+</html>
